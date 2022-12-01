@@ -1,0 +1,11 @@
+.message {
+  max-width: 100%;
+}
+.add {
+  background-color: rgb(91, 211, 91);
+  color: rgb(230, 237, 230);
+}
+.not-added {
+  background-color: rgb(230, 91, 91);
+  color: rgb(230, 221, 221);
+}

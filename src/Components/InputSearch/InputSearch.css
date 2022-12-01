@@ -1,0 +1,39 @@
+.input-search {
+  width: 100%;
+}
+
+.input-form {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.input {
+  width: 70%;
+  background-color: #ecf2f7;
+  cursor: text;
+  padding: 0.5em 2em;
+  border: 2px none;
+}
+
+.input:focus {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 20%;
+  background-color: #a5cbeb;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  color: black;
+  border-color: #a5cbeb;
+  border-radius: 0 4px 4px 0;
+}
+
+.submit-button:hover {
+  background-color: #5398d1;
+  border-color: #5398d1;
+  color: white;
+}
