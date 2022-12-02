@@ -6,8 +6,7 @@ import GroceryList from "./Components/GroceryList/Grocery-list";
 import ClearAll from "./Components/ClearAll/ClearAll";
 import Message from "./Components/Message/Message";
 import { useEffect } from "react";
-import UseReff from "./UseReff";
-import UseStatee from "./UseStatee";
+
 function App() {
   const [input, setInput] = useState("");
   const [itemsList, setItemsList] = useState([]);
@@ -117,8 +116,7 @@ function App() {
         />
         <ClearAll itemsList={itemsList} handleClearAll={handleClearAll} />
       </div>
-      {/* <UseReff /> */}
-      {/* <UseStatee /> */}
+     
     </div>
   );
 }
